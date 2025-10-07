@@ -4,7 +4,11 @@
 Hello world!
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+The reason why RGB are floats instead on integers is because in this project the colors were on a scale of 0 to 1, meaning we needed decimals. If it was 0 to 255 we would have used ints.
+
+The bounce variable is an int as we cannt count half or a fraction of a bounce. A bounce is a bounce so it must increment everytime it bounces.
+
+When simply uncommenting the code for part 4, Unity gave the error of 'expected ;.' This is because the line did not have a ; in the base code.
 
 ## Open-Source Assets
 ### W1
