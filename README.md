@@ -14,6 +14,8 @@ When simply uncommenting the code for part 4, Unity gave the error of 'expected 
 
 The parameters of this function would be an integer from 0 to 100, representing sanity level. Since all this function does is update the brightness level, this would be a void function, returning nothing.
 
+
+Components are the building blocks for any game as they give properties to those objects. If components are the blocks then classes are what the material is, concrete or wood.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
