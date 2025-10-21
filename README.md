@@ -23,6 +23,8 @@ Components are the building blocks for any game as they give properties to those
 28. An if statement saying that if the player is grounded and presses space, they jump
 32. Updates the member variable _isGrounded to be false 
 
+The Cat and SoccerBall objects use RigidBody because they are in motion. The Goal uses isTrigger because it checks if the ball overlaps to score a goal.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
