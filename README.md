@@ -16,6 +16,13 @@ The parameters of this function would be an integer from 0 to 100, representing 
 
 
 Components are the building blocks for any game as they give properties to those objects. If components are the blocks then classes are what the material is, concrete or wood.
+
+### W4
+
+17. _isGrounded is a member variable that is a bool. It checks if the cat is touching the ground.
+28. An if statement saying that if the player is grounded and presses space, they jump
+32. Updates the member variable _isGrounded to be false 
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
