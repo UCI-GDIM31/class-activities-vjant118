@@ -25,6 +25,12 @@ Components are the building blocks for any game as they give properties to those
 
 The Cat and SoccerBall objects use RigidBody because they are in motion. The Goal uses isTrigger because it checks if the ball overlaps to score a goal.
 
+### W5
+
+1. 
+
+2. The member variables should record the deer's location and target location. Methods include a Start() that gets the NavMeshAgent Component, and an Update() function to check location and constantly move the deer to the target.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
