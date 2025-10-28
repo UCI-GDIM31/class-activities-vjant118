@@ -27,7 +27,7 @@ The Cat and SoccerBall objects use RigidBody because they are in motion. The Goa
 
 ### W5
 
-1. 
+1. Why should you create a new member variable when you want to call GetComponent like StopAnimation? You could just write the whole thing but by using a new member variable you don't have to write GetComponent<NavMeshAgent> every time.
 
 2. The member variables should record the deer's location and target location. Methods include a Start() that gets the NavMeshAgent Component, and an Update() function to check location and constantly move the deer to the target.
 
