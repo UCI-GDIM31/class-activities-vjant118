@@ -6,7 +6,6 @@ public class BatManager : MonoBehaviour
 {
     [SerializeField] private float _overlapDistance;
     [SerializeField] private float _interactDistance;
-    [SerializeField] private float _timeBetweenNewMessages = 0.5f;
     [SerializeField] private Transform _playerTransform;
     [SerializeField] private TMP_Text _reactionUiPrefab;
     // STEP 1 -----------------------------------------------------------------

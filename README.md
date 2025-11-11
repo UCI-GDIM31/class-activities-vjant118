@@ -31,6 +31,19 @@ The Cat and SoccerBall objects use RigidBody because they are in motion. The Goa
 
 2. The member variables should record the deer's location and target location. Methods include a Start() that gets the NavMeshAgent Component, and an Update() function to check location and constantly move the deer to the target.
 
+### W6
+Plan:
+Assign Bat W6 to all bats
+Make a Serialize Field for Speed
+Method for making the bat chase
+Methods for turning prev on or off
+
+### W7
+
+I did the physics section: https://docs.google.com/document/d/1sbxFwadVoEb2vnPq9DS7bAOivA7REpEKIh1f_uew8pQ/edit?tab=t.0
+
+The problem is step two is that it was adding to the position instead of using transform Translate. We use Translate because it changes the local coordinates as opposed to changing the World coordinates.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
